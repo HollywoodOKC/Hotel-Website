@@ -4,7 +4,7 @@ let hotel = {
   booked: 97,
   roomTypes: ['twin', 'double', 'suite'],
   cost: [230, 400, 700],
-  checkAvailability: function () {
+  checkAvailability: function() {
     return this.rooms - this.booked;
   }
 };
@@ -18,7 +18,8 @@ elRooms.textContent = hotel.checkAvailability();
 alert("Welcome to Hotel California");
 
 let myTime = new Date();
-document.body.innerHTML = "<h3>The Hotel California" + myTime + "</h3>";
+let myHour = myTime.getHours();
+document.getElementById("name").innerHTML = "<h3>The Hotel California" + myHour + "</h3>";
 
 function timeOfDay() {
   const theTime = new Date();
