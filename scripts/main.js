@@ -33,5 +33,5 @@ function timeOfDay() {
   } else {
     return "Day";
   }
-  document.getElementById("myBtn").innerHTML = timeOfDay();
+  document.getElementById("time").innerHTML = theHour;
 }
