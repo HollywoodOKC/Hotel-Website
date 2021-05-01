@@ -10,10 +10,10 @@
 
   <body>
     <h1 id="name">Hotel California</h1>
+    <div id="clockDisplay" class="dayTime" onload="timeOfDay()"></div>
+    <div id="time" class="clock" onload="showTime()"></div>
     <h2 id="tagline">Best hotel in California</h2>
     <div class="container">
-    <p id="time"></p>
-    <button type="button" onclick="timeOfDay()"> Click Me </button>
     <form id="form">
       <p>Which room?</p>
       <select id="types">
