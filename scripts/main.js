@@ -1,3 +1,5 @@
+alert("Welcome to the Hotel California");
+
 let hotel = {
   name: 'Hotel California',
   rooms: 200,
@@ -15,24 +17,21 @@ elName.textContent = hotel.name;
 let elRooms = document.getElementById('rooms');
 elRooms.textContent = hotel.checkAvailability();
 
-alert("Welcome to Hotel California");
-
 let myTime = new Date();
 let myHour = myTime.getHours();
-document.getElementById("name").innerHTML = "<h3>The Hotel California" + myHour + "</h3>";
+document.getElementById("name").innerHTML = "The Hotel California" + "myHour";
 
 function timeOfDay() {
   const theTime = new Date();
   const theHour = theTime.getHours();
 
   if (theHour >= 6 && theHour <= 11) {
-    return "Morning";
+    document.getElementById("time").innerHTML = "Good Morning";
   } else if (theHour >= 12 && theHour <= 18) {
-    return "Afternoon";
+    document.getElementById("time").innerHTML = "Good Afternoon";
   } else if (theHour >= 19 && theHour <= 23) {
-    return "Evening";
+    document.getElementById("time").innerHTML = "Good Evening";
   } else {
-    return "Day";
+    document.getElementById("time").innerHTML = "Good Day";
   }
 }
-document.getElementById("time").innerHTML = theHour;
