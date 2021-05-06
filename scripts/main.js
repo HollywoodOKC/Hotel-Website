@@ -29,23 +29,6 @@ function showTime() {
 
 showTime();
 
-let hotel = {
-  name: 'Hotel California',
-  rooms: 200,
-  booked: 97,
-  roomTypes: ['twin', 'double', 'suite'],
-  cost: [230, 400, 700],
-  checkAvailability: function() {
-    return this.rooms - this.booked;
-  }
-};
-
-let elName = document.getElementById('hotelName');
-elName.textContent = hotel.name;
-
-let elRooms = document.getElementById('rooms');
-elRooms.textContent = hotel.checkAvailability();
-
 
 function timeOfDay() {
   const theTime = new Date();
