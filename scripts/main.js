@@ -1,4 +1,4 @@
-alert("Welcome to the Hotel California");
+alert("Welcome to the Hotel California!");
 
 function showTime() {
   const date = new Date();
@@ -20,7 +20,7 @@ function showTime() {
   m = (m < 10) ? "0" + m : m;
   s = (s < 10) ? "0" + s : s;
 
-  let time = `${h}:${m}:${s} ${session}`
+  let time = `${h}:${m}:${s} ${session}`;
   document.getElementById("time").innerText = time;
   document.getElementById("time").textContent = time;
 
@@ -43,6 +43,7 @@ function timeOfDay() {
   } else {
     document.getElementById("clockDisplay").innerHTML = "Good Day";
   }
+
   setTimeout(timeOfDay, 1000);
 }
 
