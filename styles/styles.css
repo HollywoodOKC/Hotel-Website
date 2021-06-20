@@ -29,3 +29,20 @@ button {
   text-align: center;
   color: #00AFA1;
 }
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+}
+#clockDisplay {
+  color: #00AFA1;
+}
+#time {
+  color: #00AFA1;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

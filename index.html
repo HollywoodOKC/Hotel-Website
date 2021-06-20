@@ -8,22 +8,24 @@
     <link href="styles/styles.css" type="text/css" rel="stylesheet">
   </head>
 
-  <body>
+  <body onload="theDay()" onload="showTime()">
     <h1 id="name">Hotel California</h1>
-    <div id="clockDisplay" class="dayTime" onload="timeOfDay()"></div>
-    <div id="time" class="clock" onload="showTime()"></div>
+    <div id="info">
+    <p id="clockDisplay" class="dayTime" ></p>
+    <p id="time" class="clock"></p>
+    </div>
     <h2 id="tagline">Best hotel in California</h2>
     <div class="container">
     <form id="form">
-      <p>Which room?</p>
-      <select id="types">
-        <option value="twin">Twin</option>
-        <option value="double">Double</option>
-        <option value="suite">Suite</option>
-      </select>
+      <p>Which room?
+      <input id="king" type="radio" name="room" value="king" checked="checked"/> King
+      <input id="queen" type="radio" name="room" value="queen"/> Queen
+      <input id="suite" type="radio" name="room" value="suite"/> Luxury Suite
+      <input id="budget" type="radio" name="room" value="budget"/> Budget Room
+      </p>
     </form>
     </div>
-    <script src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
   </body>
   </html>
 </html>
