@@ -8,7 +8,7 @@
     <link href="styles/styles.css" type="text/css" rel="stylesheet">
   </head>
 
-  <body onload="theDay()" onload="showTime()" onload="showRoom()">
+  <body onload="theDay()" onload="showTime()">
     <h1 id="name">Hotel California</h1>
     <div id="info">
     <p id="clockDisplay" class="stats" ></p>
@@ -19,10 +19,10 @@
     <form id="form">
       <p id="roomType"></p>
       <p>Which room?
-      <input id="king" type="radio" name="room" value="king" checked="checked"/> King
-      <input id="queen" type="radio" name="room" value="queen"/> Queen
-      <input id="suite" type="radio" name="room" value="suite"/> Luxury Suite
-      <input id="budget" type="radio" name="room" value="budget"/> Budget Room
+      <input id="king" type="radio" name="room" value="king" onselect="showRoom()" checked="checked"/> King
+      <input id="queen" type="radio" name="room" value="queen" onselect="showRoom()"/> Queen
+      <input id="suite" type="radio" name="room" value="suite" onselect="showRoom()"/> Luxury Suite
+      <input id="budget" type="radio" name="room" value="budget" onselect="showRoom()"/> Budget Room
       </p>
     </form>
     </div>
