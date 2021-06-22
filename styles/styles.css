@@ -51,7 +51,7 @@ button {
   justify-content: center;
   background-image: url(https://wallpaper.dog/large/16992638.jpg);
 }
-.container {
+#container {
   display: flex;
   flex-direction: column;
   justify-content: center;
