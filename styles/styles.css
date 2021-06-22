@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Monoton&display=swap');
+
 body {
   background-color: blanchedalmond;
   position: relative;
@@ -6,10 +10,14 @@ body {
 #name {
 text-align: center;
 color: #FFD700;
+font-family: Lobster, cursive;
+font-size: 70px;
 }
 #tagline {
   text-align: center;
   color:maroon;
+  font-family: Monoton, cursive;
+  font-size: 40px;
 }
 p {
   text-align: center;
@@ -21,9 +29,11 @@ h3 {
   text-align: center;
   color:crimson;
 }
-#time {
+.stats {
   text-align: center;
   color: #00AFA1;
+  font-family: Londrina Shadow, cursive;
+  font-size: 40px;
 }
 button {
   text-align: center;
@@ -34,15 +44,12 @@ button {
   flex-direction: column;
   justify-content: center;;
 }
-#clockDisplay {
-  color: #00AFA1;
-}
-#time {
-  color: #00AFA1;
-}
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+.class {
+  font-family: Lobster, cursive;
 }

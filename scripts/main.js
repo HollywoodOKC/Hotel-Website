@@ -20,3 +20,19 @@ const showTime = () => {
 }
 
 showTime();
+
+const showRoom = () => {
+  if (document.getElementById('king').checked) {
+    room = document.getElementById('king').value;
+  } else if (document.getElementById('queen').checked) {
+    room = document.getElementById('queen').value;
+  } else if (document.getElementById('suite').checked) {
+    room = document.getElementById('suite').value;
+  } else if (document.getElementById('budget').checked) {
+    room = document.getElementById('budget').value;
+  } else {
+    room = document.innerHTML = "Room";
+  }
+
+  document.getElementById('roomType').innerHTML = room;
+}
