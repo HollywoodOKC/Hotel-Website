@@ -10,9 +10,11 @@ body {
 }
 #name {
 text-align: center;
-color: #FFD700;
-font-family: Lobster, cursive;
+color: hsl(51, 100%, 50%);
+font-family: Londrina Shadow, cursive;
 font-size: 70px;
+transform: skewX(24deg);
+background-color: hsl(210, 29%, 29%);
 }
 #name:hover {
   transform: scale(1.5);
@@ -35,9 +37,9 @@ h3 {
 }
 .stats {
   text-align: center;
-  color: #00AFA1;
-  font-family: Londrina Shadow, cursive;
-  font-size: 40px;
+  color: hsl(51, 100%, 50%);
+  font-family: Lobster, cursive;
+  font-size: 50px;
 }
 button {
   text-align: center;
@@ -46,20 +48,23 @@ button {
 #info {
   display: flex;
   flex-direction: column;
-  justify-content: center;;
+  justify-content: center;
+  background-image: url(https://wallpaper.dog/large/16992638.jpg);
 }
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-family: Lobster, cursive;
 }
 .class {
   font-family: Lobster, cursive;
 }
 #roomType {
   font-size: 30px;
-  font-family: cursive;
+  font-family: Lobster, cursive;
+  color: hsl(360, 44%, 46%);
 }
 nav {
   margin: 27px auto 0;
