@@ -119,7 +119,7 @@ nav .start-blog, a:nth-child(3):hover~.animation {
 }
 nav .start-rooms, a:nth-child(4):hover~.animation {
   width: 160px;
-  left: 470px;
+  left: 310px;
   background-color: hsl(283, 39%, 53%);
 }
 nav .start-contact, a:nth-child(5):hover~.animation {
