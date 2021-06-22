@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 body {
   background-color: blanchedalmond;
@@ -65,6 +66,7 @@ nav {
   background-color: hsl(210, 29%, 29%);
   border-radius: 8px;
   font-size: 0;
+  font-family: Caveat, cursive;
 }
 nav a {
   line-height: 50px;
