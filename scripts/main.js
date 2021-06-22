@@ -31,8 +31,9 @@ const showRoom = () => {
   } else if (document.getElementById('budget').checked) {
     room = document.getElementById('budget').value;
   } else {
-    room = document.innerHTML = "Room";
+    document.getElementById('roomType').innerHTML = "Select Room";
   }
-
   document.getElementById('roomType').innerHTML = room;
 }
+
+showRoom();
