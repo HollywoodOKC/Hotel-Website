@@ -53,3 +53,7 @@ button {
 .class {
   font-family: Lobster, cursive;
 }
+#roomType {
+  font-size: 30px;
+  font-family: cursive;
+}

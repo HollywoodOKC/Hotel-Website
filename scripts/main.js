@@ -22,18 +22,20 @@ const showTime = () => {
 showTime();
 
 const showRoom = () => {
-  if (document.getElementById('king').checked) {
-    document.getElementById('roomType').innerHTML = "King Suite";
-  } else if (document.getElementById('queen').checked) {
-    document.getElementById('roomType').innerHTML = "Queen Suite";
-  } else if (document.getElementById('suite').checked) {
-    document.getElementById('roomType').innerHTML = "Luxury Suite";
-  } else if (document.getElementById('budget').checked) {
-    document.getElementById('roomType').innerHTML = "Cheap Room";
+  let rooms;
+  if (document.getElementById("king").checked) {
+    rooms = document.getElementById("roomType").innerHTML = "King Suite";
+  } else if (document.getElementById("queen").checked) {
+    rooms = document.getElementById("roomType").innerHTML = "Queen Suite";
+  } else if (document.getElementById("suite").checked) {
+    rooms = document.getElementById("roomType").innerHTML = "Luxury Suite";
+  } else if (document.getElementById("budget").checked) {
+    rooms = document.getElementById("roomType").innerHTML = "Cheap Room";
   } else {
-    document.getElementById('roomType').innerHTML = "Select Room";
+    rooms = document.getElementById('roomType').innerHTML = document.getElementById("selRoom").value;
   }
-  document.getElementById('roomType').innerHTML = `${room}`;
+  document.getElementById('roomType').innerHTML = rooms;
+  setTimeout(showRoom, 1000);
 }
 
 showRoom();
