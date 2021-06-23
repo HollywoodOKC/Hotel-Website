@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
   background-color: blanchedalmond;
@@ -58,7 +59,7 @@ button {
   justify-content: center;
   text-align: center;
   font-family: Lobster, cursive;
-  font-size: 20px;
+  font-size: 25px;
 }
 .class {
   font-family: Lobster, cursive;
@@ -154,4 +155,9 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 #budget {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.para {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Pacifico, cursive;
 }
