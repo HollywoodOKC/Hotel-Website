@@ -163,4 +163,5 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 }
 #trees {
   border-radius: 7px;
+  box-shadow: 5px 5px 5px 0px black;
 }
