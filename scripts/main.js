@@ -32,7 +32,7 @@ const showRoom = () => {
   } else if (document.getElementById("budget").checked) {
     rooms = document.getElementById("roomType").innerHTML = "Cheap Room";
   } else {
-    rooms = document.getElementById('roomType').innerHTML = document.getElementById("selRoom").value;
+    rooms = document.getElementById('roomType').innerHTML = "Select Room";
   }
   document.getElementById('roomType').innerHTML = rooms;
   setTimeout(showRoom, 1000);
