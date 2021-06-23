@@ -50,6 +50,7 @@ button {
   flex-direction: column;
   justify-content: center;
   background-image: url(https://wallpaper.dog/large/16992638.jpg);
+  border-radius: 7px;
 }
 #container {
   display: flex;
