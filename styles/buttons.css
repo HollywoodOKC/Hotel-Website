@@ -1,3 +1,20 @@
+li {
+  position: relative;
+  padding: 10px;
+  padding-left: 40px;
+  height: 30px;
+}
+label:before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  position: absolute;
+  left: 7px;
+  top: calc(50% - 13px);
+  box-sizing: border-box;
+  border-radius: 50%;
+}
 input[type="radio"] {
   opacity: 0;
   -webkit-appearance: none;
@@ -172,6 +189,102 @@ input[type="radio"]:checked ~.bullet.line.seven {
   100%{
     transform: rotate(-55deg) translate(9px);
     width: 0px;
+    opacity: 0;
+  }
+}
+
+@keyframes drop-two {
+  0%{
+    opacity: 0;
+    transform: translate(-20px);
+    width: 10px;
+  }
+  20%{
+    opacity: 1;
+  }
+  100%{
+    transform: translate(9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+
+@keyframes drop-three {
+  0%{
+    opacity: 0;
+    transform: rotate(55deg) translate(-20px);
+    width: 10px;
+  }
+  20%{
+    opacity: 1;
+  }
+  100%{
+    transform: rotate(55deg) translate(9px);
+    width: 0px;
+    opacity: 0;
+  }
+}
+
+@keyframes drop-four {
+  0% {
+    opacity: 0;
+    transform: rotate(55deg) translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity:1;
+  }
+  100% {
+    transform: rotate(55deg) translate(-9px);
+    width: 0px;
+    opacity:0;
+  }
+}
+
+@keyframes drop-five {
+  0% {
+    opacity: 0;
+    transform: translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity:1;
+  }
+  100% {
+    transform: translate(-9px);
+    width: 0px;
+    opacity:0;
+  }
+}
+
+@keyframes drop-six {
+  0% {
+    opacity: 0;
+    transform: rotate(-55deg) translate(20px);
+    width: 10px;
+  }
+  20% {
+    opacity:1;
+  }
+  100% {
+    transform: rotate(-55deg) translate(-9px);
+    width: 0px;
+    opacity:0;
+  }
+}
+
+@keyframes drop-seven {
+  0%{
+    opacity: 0;
+    transform: translateY(-20px);
+    height: 10px;
+  }
+  20%{
+    opacity: 1;
+  }
+  100%{
+    tranform: translateY(2px);
+    height: 0px;
     opacity: 0;
   }
 }
