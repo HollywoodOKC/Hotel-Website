@@ -140,22 +140,6 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   left: 470px;
   background-color: hsl(28, 80%, 52%);
 }
-#king {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#queen {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#suite {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#budget {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 .para {
   margin-top: 30px;
   margin-bottom: 30px;

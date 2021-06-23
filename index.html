@@ -6,6 +6,7 @@
     <meta name="author" content="HollywoodOKC">
     <title>Hotel California</title>
     <link href="styles/styles.css" type="text/css" rel="stylesheet">
+    <link href="styles/buttons.css" type="text/css" rel="stylesheet">
   </head>
 
   <body onload="theDay()" onload="showTime()" onload="showRoom()">
@@ -27,17 +28,64 @@
     <div id="container">
     <form id="form">
       <p>Which room would you like for your stay?</p>
+      <ul>
+        <li>
       <input id="king" type="radio" name="room" value="king"/>
       <label for="king">King Suite</label>
-      <br>
+      <div class="bullet">
+        <div class="line zero"></div>
+        <div class="line one"></div>
+        <div class="line two"></div>
+        <div class="line three"></div>
+        <div class="line four"></div>
+        <div class="line five"></div>
+        <div class="line six"></div>
+        <div class="line seven"></div>
+      </div>
+      </li>
+      <li>
       <input id="queen" type="radio" name="room" value="queen"/>
       <label for="queen">Queen Suite</label>
-      <br>
+      <div class="bullet">
+        <div class="line zero"></div>
+        <div class="line one"></div>
+        <div class="line two"></div>
+        <div class="line three"></div>
+        <div class="line four"></div>
+        <div class="line five"></div>
+        <div class="line six"></div>
+        <div class="line seven"></div>
+      </div>
+      </li>
+      <li>
       <input id="suite" type="radio" name="room" value="suite"/>
       <label for="suite">Luxury Suite</label>
-      <br>
+      <div class="bullet">
+        <div class="line zero"></div>
+        <div class="line one"></div>
+        <div class="line two"></div>
+        <div class="line three"></div>
+        <div class="line four"></div>
+        <div class="line five"></div>
+        <div class="line six"></div>
+        <div class="line seven"></div>
+      </div>
+      </li>
+      <li>
       <input id="budget" type="radio" name="room" value="budget"/>
       <label for="budget">Cheap Room</label>
+      <div class="bullet">
+        <div class="line zero"></div>
+        <div class="line one"></div>
+        <div class="line two"></div>
+        <div class="line three"></div>
+        <div class="line four"></div>
+        <div class="line five"></div>
+        <div class="line six"></div>
+        <div class="line seven"></div>
+      </div>
+      </li>
+    </ul>
     </form>
     </div>
     <p class="para">Welcome to the Hotel California, you can check in but you can never leave.
