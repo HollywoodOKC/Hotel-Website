@@ -83,7 +83,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 #name {
   text-align: center;
   color: hsl(51, 100%, 50%);
-  font-family: Londrina Shawdow, cursive;
+  font-family: Londrina Shadow, cursive;
   font-size: 70px;
   transform: skewX(24deg);
   background-color: hsl(210, 29%, 29%);
