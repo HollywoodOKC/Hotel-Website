@@ -155,7 +155,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 #react {
   height: 100px;
   width: 50%;
-  background-color: white;
+  background-color: blanchedalmond;
   margin: 50px auto;
   border-radius: 25%;
   animation-name: coast;
