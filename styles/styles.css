@@ -152,3 +152,29 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   border-radius: 7px;
   box-shadow: 5px 5px 5px 0px black;
 }
+#react {
+  height: 100px;
+  width: 70%;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 25%;
+  animation-name: coast;
+  animation-duration: 30s;
+}
+@keyframes coast {
+  0% {
+    background-color: hsl(190, 98%, 50%);
+  }
+  25% {
+    background-color: hsl(62, 81%, 59%);
+  }
+  50% {
+    background-color: hsl(33, 100%, 53%);
+  }
+  75% {
+    background-color: hsl(122, 73%, 67%);
+  }
+  100% {
+    background-color: hsl(5, 73%, 67%);
+  }
+}
