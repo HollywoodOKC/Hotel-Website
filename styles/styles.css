@@ -160,6 +160,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   border-radius: 25%;
   animation-name: coast;
   animation-duration: 30s;
+  animation-iteration-count: infinite;
 }
 @keyframes coast {
   0% {
