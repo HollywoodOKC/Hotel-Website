@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-  background-color: blanchedalmond;
+  background-color: hsl(36, 100%, 90.2%);
   position: relative;
   text-align: center;
 }
@@ -22,7 +22,7 @@ background-color: hsl(210, 29%, 29%);
 }
 #tagline {
   text-align: center;
-  color:maroon;
+  color:hsl(0, 100%, 25.1%);
   font-family: Monoton, cursive;
   font-size: 40px;
 }
@@ -34,7 +34,7 @@ p {
 }
 h3 {
   text-align: center;
-  color:crimson;
+  color:hsl(348, 83.3%, 47.1%);
 }
 .stats {
   text-align: center;
@@ -44,7 +44,7 @@ h3 {
 }
 button {
   text-align: center;
-  color: #00AFA1;
+  color: hsl(175.2, 100%, 34.3%);
 }
 #info {
   display: flex;
@@ -89,7 +89,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  color: white;
+  color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
 nav .animation {
@@ -150,12 +150,12 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 }
 #trees {
   border-radius: 7px;
-  box-shadow: 5px 5px 5px 0px black;
+  box-shadow: 5px 5px 5px 0px hsl(0, 0%, 0%);
 }
 #react {
   height: 100px;
   width: 25%;
-  background-color: blanchedalmond;
+  background-color: hsl(36, 100%, 90.2%);
   margin: 50px auto;
   border-radius: 50%;
   animation-name: coast;
