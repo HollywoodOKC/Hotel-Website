@@ -154,12 +154,12 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 }
 #react {
   height: 100px;
-  width: 50%;
+  width: 25%;
   background-color: blanchedalmond;
   margin: 50px auto;
-  border-radius: 25%;
+  border-radius: 50%;
   animation-name: coast;
-  animation-duration: 30s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
 }
 @keyframes coast {
