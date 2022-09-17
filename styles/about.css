@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-  background-color: blanchedalmond;
+  background-color: hsl(36,100%,90.2%);
   position: relative;
   text-align: center;
 }
@@ -90,4 +90,24 @@ nav .start-contact, a:nth-child(5):hover~.animation {
 }
 #name:hover {
   transform: scale(1.5);
+}
+#about-para {
+  font-family: Pacifico, cursive;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding:50px;
+  font-size: 30px;
+  color: hsl(215,90%,61%);
+}
+#west-coast-villa {
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 0px hsl(0, 0%,0%);
+  width: 100%;
+  height: auto;
+}
+#old-hotel {
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 0px hsl(0,0%,0%);
+  width: 100%;
+  height: auto;
 }
