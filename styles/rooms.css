@@ -37,6 +37,12 @@ p {
   width: 50%;
   height: auto;
 }
+#tropicana-suite {
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 0px;
+  width: 50%;
+  height: auto;
+}
 nav {
   margin: 27px auto 0;
   position: relative;
