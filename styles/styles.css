@@ -185,3 +185,19 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     background-color: hsl(5, 73%, 67%);
   }
 }
+/*input[type="radio"] {
+  display: none;
+}
+input[type="radio"] {
+  border: 5px solid lightblue;
+  background-color: lightblue;
+  cursor: pointer;
+  height: 40px;
+  width: auto;
+  text-align: center;
+  line-height: 40px;
+}
+input[type="radio"]:checked + label {
+  border: 5px solid blue;
+  background-color: dodgerblue;
+}*/
