@@ -23,14 +23,14 @@ showTime();
 
 const showRoom = () => {
   let rooms;
-  if (document.getElementById("king").checked) {
-    rooms = document.getElementById("roomType").innerHTML = "King Suite";
-  } else if (document.getElementById("queen").checked) {
-    rooms = document.getElementById("roomType").innerHTML = "Queen Suite";
-  } else if (document.getElementById("suite").checked) {
-    rooms = document.getElementById("roomType").innerHTML = "Luxury Suite";
-  } else if (document.getElementById("budget").checked) {
-    rooms = document.getElementById("roomType").innerHTML = "Cheap Room";
+  if (document.getElementById("monroe").checked) {
+    rooms = document.getElementById("roomType").innerHTML = "Monroe Suite";
+  } else if (document.getElementById("tropicana").checked) {
+    rooms = document.getElementById("roomType").innerHTML = "Tropicana Suite";
+  } else if (document.getElementById("roosevelt").checked) {
+    rooms = document.getElementById("roomType").innerHTML = "Roosevelt Suite";
+  } else if (document.getElementById("normal").checked) {
+    rooms = document.getElementById("roomType").innerHTML = "Normal H.C. Suite";
   } else {
     rooms = document.getElementById('roomType').innerHTML = "Select Room";
   }
