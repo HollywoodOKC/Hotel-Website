@@ -9,6 +9,17 @@ body {
   position: relative;
   text-align: center;
 }
+#room-name {
+  text-align: center;
+  color: hsl(51, 100%, 50%);
+  font-family: Londrina Shadow, cursive;
+  font-size: 60px;
+  transform: skewX(24deg);
+  background-color: hsl(210, 29%, 29%);
+}
+#room-name:hover {
+  transform: scale(1.5);
+}
 nav {
   margin: 27px auto 0;
   position: relative;
