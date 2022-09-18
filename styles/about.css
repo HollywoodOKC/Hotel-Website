@@ -19,6 +19,9 @@ nav {
   font-size: 0;
   font-family: Caveat, cursive;
 }
+p {
+  text-align: center;
+}
 nav a {
   line-height: 50px;
   height: 100%;
