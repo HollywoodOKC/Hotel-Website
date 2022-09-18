@@ -20,6 +20,23 @@ body {
 #room-name:hover {
   transform: scale(1.5);
 }
+p {
+  text-align: center;
+}
+.rooms-para {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 50px;
+  font-size: 30px;
+  font-family: Pacifico, cursive;
+  color: hsl(215, 90%, 61%);
+}
+#monroe-suite {
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 0px;
+  width: 50%;
+  height: auto;
+}
 nav {
   margin: 27px auto 0;
   position: relative;
