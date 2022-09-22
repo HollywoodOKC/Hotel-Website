@@ -163,7 +163,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   width: 25%;
   background-color: hsl(36, 100%, 90.2%);
   margin: 50px auto;
-  border-radius: 80;
+  border-radius: 7px;
   animation-name: coast;
   animation-duration: 20s;
   animation-iteration-count: infinite;
