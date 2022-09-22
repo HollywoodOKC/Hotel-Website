@@ -1,4 +1,4 @@
-alert("Welcome to the Hotel California!");
+//alert("Welcome to the Hotel California!");
 
 const days = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday"];
 
