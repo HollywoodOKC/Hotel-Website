@@ -163,26 +163,26 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   width: 25%;
   background-color: hsl(36, 100%, 90.2%);
   margin: 50px auto;
-  border-radius: 50%;
+  border-radius: 80;
   animation-name: coast;
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
 @keyframes coast {
   0% {
-    background-color: hsl(190, 98%, 50%);
+    background-color: hsl(273.91,61.06%,77.84%);
   }
   25% {
-    background-color: hsl(62, 81%, 59%);
+    background-color: hsl(315.16,72.52%,74.31%);
   }
   50% {
-    background-color: hsl(33, 100%, 53%);
+    background-color: hsl(335.04,100%,73.14%);
   }
   75% {
-    background-color: hsl(122, 73%, 67%);
+    background-color: hsl(352.16,100%,70%);
   }
   100% {
-    background-color: hsl(5, 73%, 67%);
+    background-color: hsl(13.78,100%,61.57%);
   }
 }
 /*input[type="radio"] {
