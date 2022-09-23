@@ -5,10 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-  background-color: hsl(36,100%,90.2%);
+  background-color: hsl(36, 100%, 90.2%);
   position: relative;
   text-align: center;
 }
+
 nav {
   margin: 27px auto 0;
   position: relative;
@@ -19,9 +20,20 @@ nav {
   font-size: 0;
   font-family: Caveat, cursive;
 }
+
 p {
   text-align: center;
 }
+
+figcaption {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+  font-size: 15px;
+  font-family: Pacifico, cursive;
+  color: hsl(0, 100%, 25.1%);
+}
+
 nav a {
   line-height: 50px;
   height: 100%;
@@ -35,6 +47,7 @@ nav a {
   color: white;
   cursor: pointer;
 }
+
 nav .animation {
   position: absolute;
   height: 100%;
@@ -43,46 +56,62 @@ nav .animation {
   transition: all .5s ease 0s;
   border-radius: 8px;
 }
+
 a:nth-child(1) {
   width: 100px;
 }
+
 a:nth-child(2) {
   width: 110px;
 }
+
 a:nth-child(3) {
   width: 100px;
 }
+
 a:nth-child(4) {
   width: 160px;
 }
+
 a:nth-child(5) {
   width: 120px;
 }
-nav .start-home, a:nth-child(1):hover~.animation {
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
   width: 100px;
   left: 0;
   background-color: hsl(168, 76%, 42%);
 }
-nav .start-about, a:nth-child(2):hover~.animation {
+
+nav .start-about,
+a:nth-child(2):hover~.animation {
   width: 110px;
   left: 100px;
   background-color: hsl(6, 78%, 57%);
 }
-nav .start-blog, a:nth-child(3):hover~.animation {
+
+nav .start-blog,
+a:nth-child(3):hover~.animation {
   width: 100px;
   left: 210px;
   background-color: hsl(204, 70%, 53%);
 }
-nav .start-rooms, a:nth-child(4):hover~.animation {
+
+nav .start-rooms,
+a:nth-child(4):hover~.animation {
   width: 160px;
   left: 310px;
   background-color: hsl(283, 39%, 53%);
 }
-nav .start-contact, a:nth-child(5):hover~.animation {
+
+nav .start-contact,
+a:nth-child(5):hover~.animation {
   width: 120px;
   left: 470px;
   background-color: hsl(28, 80%, 52%);
 }
+
 #name {
   text-align: center;
   color: hsl(51, 100%, 50%);
@@ -91,26 +120,30 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   transform: skewX(24deg);
   background-color: hsl(210, 29%, 29%);
 }
+
 #name:hover {
   transform: scale(1.5);
 }
+
 #about-para {
   font-family: Pacifico, cursive;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding:50px;
+  padding: 50px;
   font-size: 30px;
-  color: hsl(215,90%,61%);
+  color: hsl(215, 90%, 61%);
 }
+
 #west-coast-villa {
   border-radius: 7px;
-  box-shadow: 5px 5px 5px 0px hsl(0, 0%,0%);
+  box-shadow: 5px 5px 5px 0px hsl(0, 0%, 0%);
   width: 100%;
   height: auto;
 }
+
 #old-hotel {
   border-radius: 7px;
-  box-shadow: 5px 5px 5px 0px hsl(0,0%,0%);
+  box-shadow: 5px 5px 5px 0px hsl(0, 0%, 0%);
   width: 100%;
   height: auto;
 }
