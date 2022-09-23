@@ -89,6 +89,15 @@ button {
   height: auto;
 }
 
+figcaption{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+  font-size: 15px;
+  font-family: Pacifico, cursive;
+  color:hsl(215, 90%, 61%);
+}
+
 nav {
   margin: 27px auto 0;
   position: relative;
