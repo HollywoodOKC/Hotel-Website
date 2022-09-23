@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset = "utf-8">
-    <meta name="keywords" content="HTML, CSS, javascript">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="HollywoodOKC">
-    <title>Hotel California</title> <!--Change the title for each page-->
-    <link href="styles/styles.css" type="text/css" rel="stylesheet">
-  </head>
 
-  <body onload="theDay()" onload="showTime()" onload="showRoom()">
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="HTML, CSS, javascript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="HollywoodOKC">
+  <title>Hotel California</title>
+  <!--Change the title for each page-->
+  <link href="styles/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body onload="theDay()" onload="showTime()" onload="showRoom()">
+  <header>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -18,47 +21,50 @@
       <a href="contact.html">Contact</a>
       <div class="animation start-home"></div>
     </nav>
-    <h1 id="name">Hotel California</h1>
-    <!--This line and up will be the same on each page.-->
-    <div id="info">
-    <p id="clockDisplay" class="stats" ></p>
+  </header>
+  <h1 id="name">Hotel California</h1>
+  <!--This line and up will be the same on each page.-->
+  <div id="info">
+    <p id="clockDisplay" class="stats"></p>
     <p id="time" class="stats"></p>
-    </div>
-    <h2 id="tagline">Best Hotel in California</h2>
+  </div>
+  <h2 id="tagline">Best Hotel in California</h2>
   <hr>
-    <p id="roomType"></p>
-    <div id="container">
+  <p id="roomType"></p>
+  <div id="container">
     <form id="form">
       <p>Which room would you like for your stay?</p>
-      <input id="monroe" type="radio" name="room" value="monroe"/>
+      <input id="monroe" type="radio" name="room" value="monroe" />
       <label for="monroe">The Monroe Suite</label>
-      <input id="tropicana" type="radio" name="room" value="tropicana"/>
+      <input id="tropicana" type="radio" name="room" value="tropicana" />
       <label for="tropicana">The Tropicana Suite</label>
-      <input id="roosevelt" type="radio" name="room" value="roosevelt"/>
+      <input id="roosevelt" type="radio" name="room" value="roosevelt" />
       <label for="roosevelt">The Roosevelt Suite</label>
-      <input id="normal" type="radio" name="room" value="normal"/>
+      <input id="normal" type="radio" name="room" value="normal" />
       <label for="normal">Normal H.C. Suite</label>
     </form>
-    </div>
-    <p class="para">Welcome to the Hotel California, you can check out but you can never leave.
-      Everyday we host live events for our guest. These events are free of charge, attendees
-      can reserve a spot by talking with the front receptionist. The H.C. is a west-coast legend
-      in the hotel business and we welcome you to be apart of its legendary history.
-    </p>
-    <img id="trees" src="images/beach.jpg" alt="Palm Trees">
-    <div id="react"></div>
-    <img id="bar-picture" src="images/Bar_01.jpg" alt="H.C. Bar">
-    <p class="para">Stop in our bar have a classic mixed drink or a new creation! Our bartenders
-      will take car of you, just grab a seat and enjoy the ride. Southern California socialites
-      love to hangout our world famous bar, maybe you'll find yourself among them!
-    </p>
-    <hr>
-    <img src="https://media.architecturaldigest.com/photos/55e79210cd709ad62e90102f/master/pass/dam-images-travel-2015-hotel-pools-best-hotel-pools-01.jpg"
+  </div>
+  <p class="para">Welcome to the Hotel California, you can check out but you can never leave.
+    Everyday we host live events for our guest. These events are free of charge, attendees
+    can reserve a spot by talking with the front receptionist. The H.C. is a west-coast legend
+    in the hotel business and we welcome you to be apart of its legendary history.
+  </p>
+  <img id="trees" src="images/beach.jpg" alt="Palm Trees">
+  <div id="react"></div>
+  <img id="bar-picture" src="images/Bar_01.jpg" alt="H.C. Bar">
+  <p class="para">Stop in our bar have a classic mixed drink or a new creation! Our bartenders
+    will take car of you, just grab a seat and enjoy the ride. Southern California socialites
+    love to hangout our world famous bar, maybe you'll find yourself among them!
+  </p>
+  <hr>
+  <img
+    src="https://media.architecturaldigest.com/photos/55e79210cd709ad62e90102f/master/pass/dam-images-travel-2015-hotel-pools-best-hotel-pools-01.jpg"
     alt="Swimming Pool">
-    <p class="para">After you get checked into the H.C., come jump into our pool and have a drink.
-      Each evening, our DJ will be spinning tunes and curating the vibe. The pool bar is a great
-      place to grab a shot while you're there, have fun and un-wind.
-    </p>
-    <script type="text/javascript" src="scripts/main.js"></script>
-  </body>
+  <p class="para">After you get checked into the H.C., come jump into our pool and have a drink.
+    Each evening, our DJ will be spinning tunes and curating the vibe. The pool bar is a great
+    place to grab a shot while you're there, have fun and un-wind.
+  </p>
+  <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
 </html>
