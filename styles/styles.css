@@ -9,43 +9,52 @@ body {
   position: relative;
   text-align: center;
 }
+
 #name {
-text-align: center;
-color: hsl(51, 100%, 50%);
-font-family: Londrina Shadow, cursive;
-font-size: 70px;
-transform: skewX(24deg);
-background-color: hsl(210, 29%, 29%);
+  text-align: center;
+  color: hsl(51, 100%, 50%);
+  font-family: Londrina Shadow, cursive;
+  font-size: 70px;
+  transform: skewX(24deg);
+  background-color: hsl(210, 29%, 29%);
 }
+
 #name:hover {
   transform: scale(1.5);
 }
+
 #tagline {
   text-align: center;
   color: hsl(217, 60%, 28%);
   font-family: Monoton, cursive;
   font-size: 50px;
 }
+
 p {
   text-align: center;
 }
+
 #types {
   position: absolute;
 }
+
 h3 {
   text-align: center;
-  color:hsl(348, 83.3%, 47.1%);
+  color: hsl(348, 83.3%, 47.1%);
 }
+
 .stats {
   text-align: center;
   color: hsl(58, 35%, 44%);
   font-family: Lobster, cursive;
   font-size: 50px;
 }
+
 button {
   text-align: center;
   color: hsl(175.2, 100%, 34.3%);
 }
+
 #info {
   display: flex;
   flex-direction: column;
@@ -53,6 +62,7 @@ button {
   background-image: url(https://wallpaper.dog/large/16992638.jpg);
   border-radius: 7px;
 }
+
 #container {
   display: flex;
   flex-direction: column;
@@ -61,20 +71,24 @@ button {
   font-family: Lobster, cursive;
   font-size: 25px;
 }
+
 .class {
   font-family: Lobster, cursive;
 }
+
 #roomType {
   font-size: 35px;
   font-family: Lobster, cursive;
   color: hsl(360, 44%, 46%);
 }
+
 #bar-picture {
   border-radius: 7px;
   box-shadow: 5px 5px 5px 0px;
   width: 50%;
   height: auto;
 }
+
 nav {
   margin: 27px auto 0;
   position: relative;
@@ -85,6 +99,7 @@ nav {
   font-size: 0;
   font-family: Caveat, cursive;
 }
+
 nav a {
   line-height: 50px;
   height: 100%;
@@ -98,6 +113,7 @@ nav a {
   color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
+
 nav .animation {
   position: absolute;
   height: 100%;
@@ -106,46 +122,62 @@ nav .animation {
   transition: all .5s ease 0s;
   border-radius: 8px;
 }
+
 a:nth-child(1) {
   width: 100px;
 }
+
 a:nth-child(2) {
   width: 110px;
 }
+
 a:nth-child(3) {
   width: 100px;
 }
+
 a:nth-child(4) {
   width: 160px;
 }
+
 a:nth-child(5) {
   width: 120px;
 }
-nav .start-home, a:nth-child(1):hover~.animation {
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
   width: 100px;
   left: 0;
   background-color: hsl(168, 76%, 42%);
 }
-nav .start-about, a:nth-child(2):hover~.animation {
+
+nav .start-about,
+a:nth-child(2):hover~.animation {
   width: 110px;
   left: 100px;
   background-color: hsl(6, 78%, 57%);
 }
-nav .start-blog, a:nth-child(3):hover~.animation {
+
+nav .start-blog,
+a:nth-child(3):hover~.animation {
   width: 100px;
   left: 210px;
   background-color: hsl(204, 70%, 53%);
 }
-nav .start-rooms, a:nth-child(4):hover~.animation {
+
+nav .start-rooms,
+a:nth-child(4):hover~.animation {
   width: 160px;
   left: 310px;
   background-color: hsl(283, 39%, 53%);
 }
-nav .start-contact, a:nth-child(5):hover~.animation {
+
+nav .start-contact,
+a:nth-child(5):hover~.animation {
   width: 120px;
   left: 470px;
   background-color: hsl(28, 80%, 52%);
 }
+
 .para {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -154,10 +186,12 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   font-family: Pacifico, cursive;
   color: hsl(215, 90%, 61%);
 }
+
 #trees {
   border-radius: 7px;
   box-shadow: 5px 5px 5px 0px hsl(0, 0%, 0%);
 }
+
 #react {
   height: 100px;
   width: 25%;
@@ -168,23 +202,29 @@ nav .start-contact, a:nth-child(5):hover~.animation {
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
+
 @keyframes coast {
   0% {
-    background-color: hsl(273.91,61.06%,77.84%);
+    background-color: hsl(273.91, 61.06%, 77.84%);
   }
+
   25% {
-    background-color: hsl(315.16,72.52%,74.31%);
+    background-color: hsl(315.16, 72.52%, 74.31%);
   }
+
   50% {
-    background-color: hsl(335.04,100%,73.14%);
+    background-color: hsl(335.04, 100%, 73.14%);
   }
+
   75% {
-    background-color: hsl(352.16,100%,70%);
+    background-color: hsl(352.16, 100%, 70%);
   }
+
   100% {
-    background-color: hsl(13.78,100%,61.57%);
+    background-color: hsl(13.78, 100%, 61.57%);
   }
 }
+
 /*input[type="radio"] {
   display: none;
 }
