@@ -69,6 +69,7 @@ nav .animation {
   z-index: 0;
   transition: all .5s ease 0s;
   border-radius: 8px;
+  font-family: Caveat, cursive;
 }
 
 a:nth-child(1) {
