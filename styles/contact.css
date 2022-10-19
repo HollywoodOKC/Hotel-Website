@@ -184,7 +184,7 @@ a:nth-child(5):hover~.animation {
 
 .card .card-body .job {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .card .social-links {
@@ -227,5 +227,9 @@ a:nth-child(5):hover~.animation {
 }
 
 .card .card-footer .count {
-  font-size: 14px
+  font-size: 15px;
+  font-family: 'Lobster', cursive;
+}
+.name, .job {
+  font-family: 'Pacifico', cursive;
 }
