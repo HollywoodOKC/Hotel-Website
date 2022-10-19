@@ -235,5 +235,5 @@ a:nth-child(5):hover~.animation {
 }
 
 input {
-  accent-color: hsl(190, 100%, 71%);
+  accent-color: hsl(150, 50%, 71%);
 }
