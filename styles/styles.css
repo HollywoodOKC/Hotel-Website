@@ -87,6 +87,15 @@ button {
   box-shadow: 5px 5px 5px 0px;
   width: 50%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#swimming-pool {
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figcaption {
@@ -199,6 +208,8 @@ a:nth-child(5):hover~.animation {
 #trees {
   border-radius: 7px;
   box-shadow: 5px 5px 5px 0px hsl(0, 0%, 0%);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #react {
