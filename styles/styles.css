@@ -77,8 +77,9 @@ button {
 }
 
 #roomType {
-  font-size: 35px;
+  font-size: 50px;
   font-family: Lobster, cursive;
+  margin-top: 60px;
   color: hsl(360, 44%, 46%);
 }
 
