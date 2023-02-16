@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset = "utf-8">
-    <meta name="keywords" content="HTML, CSS, javascript">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="HollywoodOKC">
-    <title>Hotel California-Blog</title>
-    <link href="styles/blog.css" type="text/css" rel="stylesheet">
-  </head>
 
-  <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="blog.html">Blog</a>
-      <a href="room.html">Rooms</a>
-      <a href="contact.html">Contact</a>
-      <div class="animation start-home"></div>
-    </nav>
-    <h1 id="blog-name">The Official H.C. Blog</h1>
-    <hr>
-    <h1 id="blog-tagline"> UNDER CONSTRUCTION</h1>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="HTML, CSS, javascript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="HollywoodOKC">
+  <title>Hotel California-Blog</title>
+  <link href="styles/blog.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="room.html">Rooms</a>
+    <a href="contact.html">Contact</a>
+    <div class="animation start-home"></div>
+  </nav>
+  <h1 id="blog-name">The Official H.C. Blog</h1>
+  <hr>
+  <img src="images/blog.jpeg" id="blog" alt="Blog Picture" style="box-shadow: 5px 5px 5px black">
+  <hr>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/palm_cartoon.jpeg" alt="Palms" class="blog_post" id="picture">
+      </div>
+      <div class="flip-card-back">
+        <h1>Blog Post 1</h1>
+        <p class="blog-title">The first blog is about the intricate layout of the HC!</p>
+        <p class="blog-content">After arrival we unpacked and checked into the hotel, we even met the owner Mr. Lane!</p>
+        <button type="button" id="button">Read More</button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <script type="text/javascript" src="scripts/blog.js"></script>
+</body>
+
 </html>
