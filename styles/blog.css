@@ -172,5 +172,5 @@ a:nth-child(5):hover~.animation {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 50%;
+  border-radius: 25%;
 }
