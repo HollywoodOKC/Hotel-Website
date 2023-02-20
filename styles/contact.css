@@ -234,8 +234,14 @@ a:nth-child(5):hover~.animation {
   font-family: 'Pacifico', cursive;
 }
 
-#button {
+#button, #color {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+#color {
+  font-family: Monoton, cursive;
+  font-size: 25px;
 }
