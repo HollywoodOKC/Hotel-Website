@@ -174,3 +174,7 @@ a:nth-child(5):hover~.animation {
   margin-left: auto;
   border-radius: 25%;
 }
+
+.blog-title, .blog-content {
+  font-family: Londrina Shadow, cursive;
+}
