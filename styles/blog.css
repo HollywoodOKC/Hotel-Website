@@ -128,8 +128,6 @@ a:nth-child(5):hover~.animation {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .flip-card-inner {
@@ -179,4 +177,8 @@ a:nth-child(5):hover~.animation {
 
 .blog-title, .blog-content {
   font-family: Londrina Shadow, cursive;
+}
+
+.blog_main {
+  font-family: 'Lobster', cursive;
 }
