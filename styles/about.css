@@ -151,5 +151,6 @@ a:nth-child(5):hover~.animation {
 #footer {
   text-align: center;
   color: black;
-  font-size: 1.5em;
+  font-size: 1em;
+  font-family: 'Lobster', cursive;
 }
