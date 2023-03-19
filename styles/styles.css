@@ -259,4 +259,7 @@ input {
   color: black;
   font-size: 1em;
   font-family: 'Lobster', cursive;
+  border: .4em solid hsl(0, 100%, 25.1%);
+  border-radius: 7px;
+  background-color: white;
 }
