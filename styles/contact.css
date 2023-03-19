@@ -245,3 +245,9 @@ a:nth-child(5):hover~.animation {
   font-family: Monoton, cursive;
   font-size: 25px;
 }
+
+#footer {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}

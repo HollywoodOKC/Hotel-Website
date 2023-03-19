@@ -182,3 +182,9 @@ a:nth-child(5):hover~.animation {
 .blog_main {
   font-family: 'Lobster', cursive;
 }
+
+#footer {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
