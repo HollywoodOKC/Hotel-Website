@@ -14,7 +14,7 @@ body {
   text-align: center;
   color: hsl(51, 100%, 50%);
   font-family: Londrina Shadow, cursive;
-  font-size: 70px;
+  font-size: 4.3rem;
   transform: skewX(24deg);
   background-color: hsl(210, 29%, 29%);
 }
@@ -27,7 +27,7 @@ body {
   text-align: center;
   color: hsl(217, 60%, 28%);
   font-family: Monoton, cursive;
-  font-size: 50px;
+  font-size: 3.1rem;
 }
 
 nav {
@@ -44,7 +44,7 @@ nav {
 nav a {
   line-height: 50px;
   height: 100%;
-  font-size: 15px;
+  font-size: 0.9rem;
   display: inline-block;
   position: relative;
   z-index: 1;
