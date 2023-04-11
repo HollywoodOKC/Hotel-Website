@@ -14,7 +14,7 @@ body {
   text-align: center;
   color: hsl(51, 100%, 50%);
   font-family: Londrina Shadow, cursive;
-  font-size: 70px;
+  font-size: 4.3rem;
   transform: skewX(24deg);
   background-color: hsl(210, 29%, 29%);
 }
@@ -27,7 +27,7 @@ body {
   text-align: center;
   color: hsl(217, 60%, 28%);
   font-family: Monoton, cursive;
-  font-size: 50px;
+  font-size: 3.1rem;
 }
 
 p {
@@ -47,7 +47,7 @@ h3 {
   text-align: center;
   color: hsl(58, 35%, 44%);
   font-family: Lobster, cursive;
-  font-size: 50px;
+  font-size: 3.1rem;
 }
 
 button {
@@ -69,7 +69,7 @@ button {
   justify-content: center;
   text-align: center;
   font-family: Lobster, cursive;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .class {
@@ -105,7 +105,7 @@ figcaption {
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 15px;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-family: Pacifico, cursive;
   color: hsl(0, 100%, 25.1%);
 }
@@ -203,7 +203,7 @@ a:nth-child(5):hover~.animation {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 50px;
-  font-size: 30px;
+  font-size: 1.8rem;
   font-family: Pacifico, cursive;
   color: hsl(215, 90%, 61%);
 }
