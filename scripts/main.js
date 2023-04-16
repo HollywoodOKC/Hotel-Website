@@ -1,6 +1,6 @@
 //alert("Welcome to the Hotel California!");
 
-const days = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday"];
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 const theDay = () => {
   d = new Date();
