@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+  font-family: Monton;
+  src: url(../fonts/Monoton-Regular.ttf);
+  font-style: normal;
+}
 
 body {
   background-color: hsl(36, 100%, 90.2%);
