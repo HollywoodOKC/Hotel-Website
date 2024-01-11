@@ -18,6 +18,15 @@ const randoColor = () => {
   let randColor = randoNum.padStart(6, 0);
   color.innerHTML = `#${randColor.toUpperCase()}`;
   document.body.style.backgroundColor = `#${randColor.toUpperCase()}`;
+
+  axios.get(`https://www.thecolorapi.com/id?hex=${randColor}`)
+    .then(response => {
+      const apiResponse = response.data;
+      console.log(apiResponse);
+      document.getElementById('colorName').innerHTML = `${apiResponse.name.value}`;
+    }).catch(error => {
+      console.log(error);
+    })
 }
 
 button.addEventListener('mouseover', changeBtn);
