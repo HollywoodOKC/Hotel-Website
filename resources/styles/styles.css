@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 @font-face {
   font-family: Monton;
@@ -18,7 +18,9 @@ body {
 #name {
   text-align: center;
   color: hsl(51, 100%, 50%);
-  font-family: Londrina Shadow, cursive;
+  font-family:
+    Londrina Shadow,
+    cursive;
   font-size: 4.3rem;
   transform: skewX(24deg);
   background-color: hsl(210, 29%, 29%);
@@ -145,7 +147,7 @@ nav .animation {
   height: 100%;
   top: 0;
   z-index: 0;
-  transition: all .5s ease 0s;
+  transition: all 0.5s ease 0s;
   border-radius: 8px;
 }
 
@@ -170,35 +172,35 @@ a:nth-child(5) {
 }
 
 nav .start-home,
-a:nth-child(1):hover~.animation {
+a:nth-child(1):hover ~ .animation {
   width: 100px;
   left: 0;
   background-color: hsl(168, 76%, 42%);
 }
 
 nav .start-about,
-a:nth-child(2):hover~.animation {
+a:nth-child(2):hover ~ .animation {
   width: 110px;
   left: 100px;
   background-color: hsl(6, 78%, 57%);
 }
 
 nav .start-blog,
-a:nth-child(3):hover~.animation {
+a:nth-child(3):hover ~ .animation {
   width: 110px;
   left: 210px;
   background-color: hsl(204, 70%, 53%);
 }
 
 nav .start-rooms,
-a:nth-child(4):hover~.animation {
+a:nth-child(4):hover ~ .animation {
   width: 160px;
   left: 310px;
   background-color: hsl(283, 39%, 53%);
 }
 
 nav .start-contact,
-a:nth-child(5):hover~.animation {
+a:nth-child(5):hover ~ .animation {
   width: 120px;
   left: 470px;
   background-color: hsl(28, 80%, 52%);
@@ -213,7 +215,8 @@ a:nth-child(5):hover~.animation {
   color: hsl(215, 90%, 61%);
 }
 
-#trees {
+#trees,
+#roomPic {
   border-radius: 7px;
   box-shadow: 5px 5px 5px 0px hsl(0, 0%, 0%);
   width: 50%;
@@ -263,8 +266,8 @@ input {
   text-align: center;
   color: black;
   font-size: 1em;
-  font-family: 'Lobster', cursive;
-  border: .4em solid hsl(0, 100%, 25.1%);
+  font-family: "Lobster", cursive;
+  border: 0.4em solid hsl(0, 100%, 25.1%);
   border-radius: 7px;
   background-color: white;
 }
