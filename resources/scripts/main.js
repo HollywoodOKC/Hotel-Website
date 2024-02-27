@@ -43,7 +43,6 @@ const showRoom = () => {
     roomPic.src = "./resources/images/normal suite.jpg";
     roomPic.alt = "Normal HC Suite";
   } else {
-
     roomPic.src = "";
   }
   document.getElementById('roomType').innerHTML = rooms;
