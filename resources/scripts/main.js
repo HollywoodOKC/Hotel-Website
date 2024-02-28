@@ -2,20 +2,22 @@
 const roomPic = document.getElementById('roomPic');
 const form = document.getElementById('form');
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-document.getElementById('roomType').innerHTML = "Select Room";
 
-const theDay = () => {
+function theDay() {
   d = new Date();
   document.getElementById("clockDisplay").innerHTML = days[d.getDay()];
 };
 
 theDay();
 
-const showTime = () => {
+function showTime() {
   const time = new Date();
-  const hours = time.getHours();
-  const mins = time.getMinutes();
-  const secs = time.getSeconds();
+  let hours = time.getHours();
+  let mins = time.getMinutes();
+  let secs = time.getSeconds();
+  hours = checkTime(hours);
+  mins = checkTime(mins);
+  secs = checkTime(secs);
   const wholeTime = `${hours}:${mins}:${secs}`;
   document.getElementById("time").innerHTML = wholeTime;
   setTimeout(showTime, 1000);
@@ -23,8 +25,26 @@ const showTime = () => {
 
 showTime();
 
+function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+};
 
-const showRoom = () => {
+const hotel = {
+  name: 'Hotel California',
+  rooms: 210,
+  booked: 100,
+  gym: true,
+  hotTub: true,
+  roomTypes: ["Monroe", "Tropicana", "Roosevelt", "Normal"],
+  checkAvailability: function () {
+    return this.rooms - this.booked;
+  }
+};
+
+function showRoom() {
   let rooms;
   if (document.getElementById("monroe").checked) {
     rooms = document.getElementById("roomType").innerHTML = "Monroe Suite";
@@ -43,9 +63,11 @@ const showRoom = () => {
     roomPic.src = "./resources/images/normal suite.jpg";
     roomPic.alt = "Normal HC Suite";
   } else {
-    roomPic.src = "";
+    roomPic.src = "Try clicking room button";
   }
   document.getElementById('roomType').innerHTML = rooms;
 };
 
 form.addEventListener('click', showRoom);
+document.getElementById('name').innerHTML = hotel.name;
+document.getElementById('roomType').innerHTML = "Select a suite";
