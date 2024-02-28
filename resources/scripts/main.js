@@ -35,7 +35,7 @@ function checkTime(i) {
 const hotel = {
   name: 'Hotel California',
   rooms: 210,
-  booked: 100,
+  booked: 133,
   gym: true,
   hotTub: true,
   roomTypes: ["Monroe", "Tropicana", "Roosevelt", "Normal"],
